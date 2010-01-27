@@ -10,6 +10,7 @@
 "
 " Sources for this file include:
 " $VIMRUNTIME/vimrc_example.vim
+" Alan Lafon http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
 "
 " To be consistent, command keys are labeled as:
 " <BS> = backspace
@@ -27,6 +28,9 @@ set history=50
 
 " Perform search as the search text is being completed
 set incsearch
+
+" Limit line length
+set textwidth=79
 
 " Indetation settings =======================================================
 " Keep the previous line's indentation level
