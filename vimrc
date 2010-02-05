@@ -29,9 +29,6 @@ set history=50
 " Perform search as the search text is being completed
 set incsearch
 
-" Limit line length
-set textwidth=79
-
 " Indetation settings =======================================================
 " Keep the previous line's indentation level
 set autoindent
