@@ -7,5 +7,5 @@ Linking
 -------
 
 To properly use the vim files, run the commands from the e13n directory:
-ln -s ./vimrc $HOME/.vimrc
-ln -s ./vim $HOME/.vim
+ln -s $(pwd)/vimrc $HOME/.vimrc
+ln -s $(pwd)/vim $HOME/.vim
