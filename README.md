@@ -12,4 +12,4 @@ ln -s ./vim $HOME/.vim
 
 Backup
 ------
-To run the backup, set up another script to export the values KEY and REMOTE (leaving off trailing slash to sync the home folder to the remote folder) and call the e13n/backup script.  Cron can then be set up to run this script if needed.
+To run the backup, set up another script to export the values KEY, LOCAL, and REMOTE and call the e13n/backup script.  Cron can then be set up to run this script if needed.
