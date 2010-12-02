@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/rsync --verbose --progress --stats --compress -e "ssh -i $KEY" --recursive --times --perms --links --delete --exclude ".gvfs" --exclude ".cache" --exclude ".local" $LOCAL $REMOTE
+/usr/bin/rsync --verbose --progress --stats --compress -e "ssh -i $KEY" --recursive --times --perms --links --delete --exclude ".gvfs" --exclude ".cache" --exclude ".local" --exclude "tmp" --exclude ".VirtualBox" --exclude "games/nwn" $LOCAL $REMOTE

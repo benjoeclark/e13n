@@ -31,9 +31,11 @@ set incsearch
 
 " Indetation settings =======================================================
 " Keep the previous line's indentation level
-set autoindent
+"set autoindent
 " Start indenting after certain programming-specific lines
-set smartindent
+"set smartindent
+" Use filetype indenting
+filetyp indent on
 " Replace tabs with correct number of spaces
 set expandtab
 " Number of spaces that a tab represents
@@ -51,6 +53,9 @@ set showcmd
 " When autocompleting, show options in a menu above the command prompt
 " with the current selection higlighted
 set wildmenu
+
+" Makefile sanity
+autocmd BufEnter ?akefile* set noet ts=4 sw=4
 
 " Syntax highlighting if colors are available
 "   t_Co is the flag representing number of colors
