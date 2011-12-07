@@ -35,7 +35,7 @@ set incsearch
 " Start indenting after certain programming-specific lines
 "set smartindent
 " Use filetype indenting
-filetyp indent on
+filetype plugin indent on
 " Replace tabs with correct number of spaces
 set expandtab
 " Number of spaces that a tab represents
