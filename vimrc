@@ -64,3 +64,9 @@ if &t_Co > 2 || has("gui_running")
     syntax on
     set hlsearch
 endif
+
+" Keep Dropbox from constantly saving files being worked on
+" Save swap files in ~/tmp directory
+set dir=~/tmp
+" Save backup files in the ~/tmp directory
+set backupdir=~/tmp,~/
