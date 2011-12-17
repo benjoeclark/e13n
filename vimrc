@@ -35,7 +35,8 @@ set incsearch
 " Start indenting after certain programming-specific lines
 "set smartindent
 " Use filetype indenting
-filetype plugin indent on
+filetype plugin on
+filetype indent on
 " Replace tabs with correct number of spaces
 set expandtab
 " Number of spaces that a tab represents
@@ -70,3 +71,7 @@ endif
 set dir=~/tmp
 " Save backup files in the ~/tmp directory
 set backupdir=~/tmp,~/
+
+" Set up column coloring
+set colorcolumn=80
+hi ColorColumn ctermbg=darkgrey
